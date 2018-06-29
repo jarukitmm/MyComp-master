@@ -1,0 +1,82 @@
+.container{
+    margin-top: 0;
+    height: 60px;
+    width: 100%;
+    background: pink;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.openmenu{
+    margin: 0px 0px;
+}
+
+.openmenu h1{
+    margin: 10 auto;
+    color: blue;
+}
+
+.openmenu .oplogo{
+    float: left;
+    font-size: 15px;
+    margin: 0px;
+}
+
+.openmenu ul.menu{
+    float: right;
+    list-style: none;
+}
+
+.openmenu ul.menu li{
+    float: left;
+    margin-right: 20;
+}
+
+.openmenu ul.menu li .map{
+    float: left;
+}
+
+.openmenu ul.menu li .email{
+    float: left;
+}
+
+.openmenu ul.menu li a{
+    box-shadow: 0px 8px 16px 0px rgba(110, 108, 108, 0.2);
+    padding: 9px 16px;
+    text-decoration: none;
+    color: blueviolet;
+    margin: 5px;
+    float: right;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 0px 16px;
+    transition: all 1s ease;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.map:hover .dropdown-content{
+    display: block;
+}
+
+.second .container2{
+    float: left;
+}
+.second .container2 a{
+    float: left;
+    margin: 5px;
+}
+
